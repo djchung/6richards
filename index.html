@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Six Richards & Friends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+    /*Global
+     ---------------------------------------------------------- */
+    h4 {
+      text-align:center;
+    }
+    .headshot {
+      border:2px solid white;
+      border-radius:60px;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .bio {
+      text-align: center;
+    }
+    /*Navbar
+     ---------------------------------------------------------- */
+    .navbar-wrapper{
+      background-color: black;
+      color: white;
+      
+    }
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 10px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 50px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: #222;
+      border: 0;
+      -webkit-border-radius:70px;
+      border: 3px solid white;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <h3>Six Richards & Friends</h3>
+      </div>
+    </div>
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="active item">
+          <img src="assets/dvGroup.jpg" alt="death valley group pic">
+        </div>
+        <div class="item">
+          <img src="assets/btfGroup.jpg" alt="btf group pic">
+        </div>
+        <div class="item">
+          <img src="assets/lr2Air.jpg" alt="lr2 getting air">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+      
+    <!-- 6 richards-->
+    <div class="container marketing">
+      <div class="row">
+        <div class="span12" style="text-align: center; margin-bottom:10px">
+          <h3>The Adventures of the Six Richards and Friends</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span4">
+          <img class= "headshot" src="assets/sam-headshot.png">
+          <h4 >Sam</h4>
+          <p>Sam has an insatiable love for adventure and has a particular interest
+          in off-roading. He likes to push himself and his rig to the limit. He once
+          jumped his SUV eight feet off the ground in Death Valley, deploying his air bags on impact. Sam
+          is the glue of the Six Richards & Friends, as he brings all of us together with
+          new adventure ideas and works tirelessly to make things happen.</p>
+        </div>
+        <div class = "span4">
+          <img class= "headshot" src="assets/josh-headshot.png">
+          <h4>Josh</h4>
+          <p>Josh loves the outdoors and is fearless in taking on challenges. Josh's broad expertise
+          in wilderness survival along with his calming demeanor has proved an invaluable
+          asset when we were lost, off-roading Jeeps in the closing hours of the trails in
+          Hollister Hills SVRA. Josh is the community builder of the Six Richards & Friends as
+          his overall concern and care for us extend far beyond any expectations. 
+        </p>
+        </div>
+        <div class="span4">
+          <img class="headshot" src="assets/dj-headshot.png">
+          <h4>DJ</h4>
+          <p>DJ adds color to the Six Richards & Friends with his eye for accents to
+          adventures. DJ's particular sense for minutiae has piqued the group's interest in bow-ties, cigars and rhythmic steps.
+          DJ is the gloss of the Six Richards & Friends as his deep appreciation of the web
+          of relationships is manifest through his role as the most ardent cheerleader
+          and publicist of the group.</p>
+        </div>
+      </div>
+      <div class= "row" style="margin-top: 20px">
+        <div class="span4">
+          <img class= "headshot" src="assets/dan-headshot.png">
+          <h4 >Dan</h4>
+          <p>Dan is a craftsman who devotes his seemingly unlimited energy to envision, plan
+          and build essential assets for every adventure. Dan's grand vision and attention to detail
+          were the driving force behind the construction of the working, back lit, 12 foot
+          clocktower for the Back to The Future Party (2012). Dan is the motor of the Six
+          Richards & Friends as his infectious enthusiasm pushes projects forward and brings
+          out the best in us.</p>
+        </div>
+        <div class = "span4">
+          <img class= "headshot" src="assets/nick-headshot.png">
+          <h4>Nick</h4>
+          <p>Nick is a steady, high level thinker who ensures all adventures run smoothly. Nick's
+          ability to diffuse conflicts and his commitment to the success of all Six Richards &
+          Friends set the tone for an open and encouraging environment. Nick is
+          the universal asset to the Six Richards & Friends because of his unselfish character and
+          willingess to do any job or make any sacrifice for the betterment of the group.</p>
+        </div>
+        <div class="span4">
+          <img class="headshot" src="assets/paul-headshot.png">
+          <h4>Paul</h4>
+          <p>Paul brings a level of class and polish otherwise unknown to the Six Richards & Friends.
+          Paul's expansive, yet esoteric insights into all things enrich the experience of all
+          adventures. Paul is the soul of the Six Richards & Friends because he represents not only the
+          gallant nature of the group with his aggressive dirt ride maneuvering, but also our collective
+          sophistication through his ability to deliver eloquent, impromptu monologues with finesse.
+          
+          </p>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2012 Six Richards & Friends</p>
+      </footer>
+    </div>
+    
+        
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/jquery.js"></script>
+    
+  </body>
+</html>
